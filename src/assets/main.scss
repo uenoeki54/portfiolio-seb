@@ -1,0 +1,82 @@
+$header-grey: #9f9fab;
+$background-color: #e6e6fa;
+$main-text: #191970;
+$emphasis: #ff6060;
+$secondary-text: #cc2500;
+
+* {
+  font-family: Inter;
+}
+
+header {
+  background-color: $header-grey;
+  font-size: 32px;
+  color: $main-text;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  .icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      li {
+        display: block;
+        img {
+          border: 2px solid $main-text;
+          transition: border-color 0.3s linear;
+        }
+        img:hover {
+          border: 2px solid $emphasis;
+        }
+      }
+    }
+    .mode {
+      width: 50px;
+      height: 50px;
+    }
+  }
+}
+
+main {
+  background-color: $background-color;
+  height: 90vh;
+}
+
+#upper {
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+#left {
+  width: 35vw;
+  #sebastien-etievant {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: $main-text;
+    h1,
+    h2 {
+      font-size: 36px;
+      line-height: 20px;
+    }
+    img {
+      width: 145px;
+      height: 152px;
+      margin-top: 15px;
+      border: 2px solid $main-text;
+      border-radius: 10px;
+    }
+  }
+  p {
+    font-size: 32px;
+  }
+}
