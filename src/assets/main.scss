@@ -48,13 +48,13 @@ header {
 
 main {
   background-color: $background-color;
-  height: 90vh;
+  height: 100%;
 }
 
 #upper {
   margin-left: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 #left {
   width: 35vw;
@@ -78,5 +78,33 @@ main {
   }
   p {
     font-size: 32px;
+    color: $main-text;
+  }
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  button {
+    width: 272px;
+    height: 61px;
+    background-color: $emphasis;
+    border-radius: 15px;
+    color: white;
+    font-size: 32px;
+    border: 4px solid $emphasis;
+    transition: border-color 0.3s linear;
+  }
+
+  button:hover {
+    width: 272px;
+    height: 61px;
+    background-color: $emphasis;
+    border-radius: 15px;
+    color: white;
+    font-size: 33px;
+    border: 3px solid $main-text;
   }
 }

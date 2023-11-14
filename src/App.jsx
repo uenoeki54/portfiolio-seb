@@ -8,7 +8,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/:resumeId" element={<Home />} />
+        <Route path="/:skillId" element={<Home />} />
       </Routes>
     </BrowserRouter>
   );

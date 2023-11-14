@@ -1,0 +1,27 @@
+[
+  {
+    "id": "0",
+    "name": "web skills",
+    "text": "web skills list"
+  },
+  {
+    "id": "1",
+    "name": "design skills",
+    "text": "web design skills list"
+  },
+  {
+    "id": "2",
+    "name": "experience",
+    "text": "work experience details"
+  },
+  {
+    "id": "3",
+    "name": "training",
+    "text": "training history"
+  },
+  {
+    "id": "4",
+    "name": "links",
+    "text": "mail insta facebook etc pommechipe et tout ca"
+  }
+]

@@ -1,7 +1,19 @@
 import { Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
+import skills from '../assets/data/back.json';
 import portrait from '../assets/images/seb-portrait.jpg';
-import skills from '../assets/data/skills.json';
+import { Navigate } from 'react-router-dom';
 function Home() {
+  const { skillId } = useParams();
+  if (skillId === undefined) {
+    return <Navigate to="/0" replace={true} />;
+  }
+  let skill = skills.filter((skills) => skills.id === skillId);
+
+  console.log(`skillId vaut ${skillId}`);
+  console.log(`skill vaut ${skill}`);
+  console.log(skill[0].text);
+
   return (
     <main>
       <div id="upper">
@@ -21,18 +33,18 @@ function Home() {
             Vestibulum id ul
           </p>
         </section>
-        <nav>
+        <nav id="skills">
           <ul className="menu">
             {skills.map((idx) => (
               <li key={idx.id}>
-                <Link to={`./Card/${idx.id}`}>
+                <Link to={`.././${idx.id}`}>
                   <button>{idx.name}</button>
                 </Link>
               </li>
             ))}
           </ul>
         </nav>
-        <section id="right">skills</section>
+        <section id="right">{skill[0].text}</section>
       </div>
     </main>
   );
