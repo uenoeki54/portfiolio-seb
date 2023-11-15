@@ -1,0 +1,59 @@
+.menu {
+  .arrows {
+    display: flex;
+    flex-direction: column;
+    font-size: 100px;
+    color: $emphasis;
+    .follow-arrow {
+      transform-origin: center;
+      transform: rotate(90deg);
+      animation: godown 1s infinite;
+      animation-delay: -0.2s;
+    }
+    .go-arrow {
+      transform-origin: center;
+      transform: rotate(90deg) translate(-40px, 0);
+      animation: godownun 1s infinite;
+    }
+  }
+}
+@keyframes godown {
+  0% {
+    opacity: 0;
+    transform: rotate(90deg) translate(0px, 0px);
+  }
+  30% {
+    opacity: 1;
+    transform: rotate(90deg) translate(0px, 0px);
+  }
+  50% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(90deg) translate(20px, 0px);
+  }
+}
+@keyframes godownun {
+  0% {
+    opacity: 1;
+    transform: rotate(90deg) translate(-40px, 0px);
+  }
+  30% {
+    opacity: 1;
+    transform: rotate(90deg) translate(-40px, 0px);
+  }
+  50% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(90deg) translate(20px, 0px);
+  }
+}

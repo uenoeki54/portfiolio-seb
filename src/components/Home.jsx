@@ -23,7 +23,9 @@ function Home() {
           <div id="sebastien-etievant">
             <div className="nom">
               <h1>Sébastien ETIEVANT</h1>
-              <h2>Intégrateur /Développeur web</h2>
+              <h2>
+                Intégrateur /<br></br>Développeur web
+              </h2>
             </div>
             <img src={portrait}></img>
           </div>
