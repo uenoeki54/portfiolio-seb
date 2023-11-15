@@ -3,10 +3,14 @@ import english from '../assets/icons/flag-english66-40.jpg';
 import japanese from '../assets/icons/flag-japan66-40.jpg';
 import darkmode from '../assets/icons/icon-darkmode-trans.png';
 import { Link } from 'react-router-dom';
+import React from 'react';
+import { ThemeContext } from '../App';
 function Header() {
+  const { theme, toggleTheme } = React.useContext(ThemeContext);
   return (
     <header id="header">
       <Link to="./">Home</Link>
+
       <div className="icons">
         <div className="flags">
           <ul>
@@ -27,7 +31,7 @@ function Header() {
             </li>
           </ul>
         </div>
-        <img src={darkmode} className="mode"></img>
+        <img src={darkmode} className="mode" onClick={toggleTheme}></img>
       </div>
     </header>
   );

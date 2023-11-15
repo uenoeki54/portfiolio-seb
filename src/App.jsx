@@ -3,7 +3,7 @@ import Home from './components/Home';
 import Header from './components/Header';
 import Projects from './components/Projects';
 import Project from './components/Project';
-import Switch from './components/Switch';
+
 import './assets/sass/main.scss';
 
 import React from 'react';
@@ -20,7 +20,6 @@ function App() {
     <BrowserRouter>
       <ThemeContext.Provider value={{ theme, toggleTheme }}>
         <div className={`app ${theme}`}>
-          <Switch />
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />

@@ -1,3 +1,16 @@
+#right {
+  h1 {
+    animation: appear 0.5s ease-in;
+  }
+  ul {
+    animation: appear 0.5s ease-in;
+  }
+
+  .icons {
+    animation: appear 0.5s ease-in;
+  }
+}
+
 .menu {
   .arrows {
     display: flex;
@@ -42,7 +55,7 @@
     opacity: 1;
     transform: rotate(90deg) translate(-40px, 0px);
   }
-  30% {
+  45% {
     opacity: 1;
     transform: rotate(90deg) translate(-40px, 0px);
   }
@@ -55,5 +68,15 @@
   100% {
     opacity: 0;
     transform: rotate(90deg) translate(20px, 0px);
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
