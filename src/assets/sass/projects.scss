@@ -3,6 +3,7 @@
 #projects {
   background-color: $background-color;
   padding: 1px 1px;
+  display: flex;
   ul {
     list-style: none;
     display: flex;
@@ -11,6 +12,19 @@
     img {
       border: 3px solid $emphasis;
       border-radius: 15px;
+    }
+  }
+}
+#project {
+  display: flex;
+  background-color: $background-color;
+  padding: 20px;
+  .right {
+    padding: 0px 20px;
+    color: $main-text;
+    h1 {
+      font-size: 36px;
+      margin: 0px;
     }
   }
 }

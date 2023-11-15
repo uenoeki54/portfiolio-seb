@@ -5,7 +5,7 @@ import darkmode from '../assets/icons/icon-darkmode-trans.png';
 import { Link } from 'react-router-dom';
 function Header() {
   return (
-    <header>
+    <header id="header">
       <Link to="./">Home</Link>
       <div className="icons">
         <div className="flags">
