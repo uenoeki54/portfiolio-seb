@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Projects from './components/Projects';
 import Project from './components/Project';
 import Switch from './components/Switch';
-import './assets/main.scss';
+import './assets/sass/main.scss';
 
 import React from 'react';
 import { useState } from 'react';
