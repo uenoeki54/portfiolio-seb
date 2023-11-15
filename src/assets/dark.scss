@@ -1,0 +1,24 @@
+@import 'colors';
+
+.dark {
+  header {
+    background-color: $header-grey-dark;
+    a {
+      color: $main-text-dark;
+    }
+    color: $main-text-dark;
+  }
+  main {
+    background-color: $background-color-dark;
+    color: $main-text-dark;
+    #sebastien-etievant {
+      h1,
+      h2 {
+        color: $main-text-dark;
+      }
+    }
+    #left p {
+      color: $main-text-dark;
+    }
+  }
+}

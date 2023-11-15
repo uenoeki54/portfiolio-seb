@@ -1,0 +1,23 @@
+[
+  {
+    "id": "0",
+    "name": "tarot",
+    "thumbnail": "/src/assets/images/tarot-thumb.png",
+    "text": "",
+    "picture": "/src/assets/images/tarot.png"
+  },
+  {
+    "id": "1",
+    "name": "kasa",
+    "thumbnail": "/src/assets/images/kasa-thumb.png",
+    "text": "",
+    "picture": "/src/assets/images/kasa.png"
+  },
+  {
+    "id": "2",
+    "name": "paintings",
+    "thumbnail": "/src/assets/images/paintings-thumb.png",
+    "text": "",
+    "picture": "/src/assets/images/paintings.png"
+  }
+]

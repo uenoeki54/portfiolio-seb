@@ -1,8 +1,11 @@
-$header-grey: #9f9fab;
-$background-color: #e6e6fa;
-$main-text: #191970;
-$emphasis: #ff6060;
-$secondary-text: #cc2500;
+@import 'colors';
+@import 'dark';
+// $header-grey: #9f9fab;
+// $background-color: #e6e6fa;
+// $background-color-dark: #191970;
+// $main-text: #191970;
+// $emphasis: #ff6060;
+// $secondary-text: #cc2500;
 
 * {
   font-family: Inter;
@@ -65,7 +68,7 @@ main {
     color: $main-text;
     h1,
     h2 {
-      font-size: 36px;
+      font-size: 40px;
       line-height: 20px;
     }
     img {
