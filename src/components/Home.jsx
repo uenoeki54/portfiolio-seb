@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 import { Navigate } from 'react-router-dom';
-import skills from '../assets/data/skills.json';
+import skillsFrench from '../assets/data/skills-french.json';
+import skillsEnglish from '../assets/data/skills-english.json';
+import skillsJapanese from '../assets/data/skills-japanese.json';
 import portrait from '../assets/images/seb-portrait.jpg';
 import { MdDoubleArrow } from 'react-icons/md';
 import React from 'react';
@@ -11,8 +13,21 @@ function Home() {
   const { language, toFrench, toEnglish, toJapanese } =
     React.useContext(LanguageContext);
   const { skillId } = useParams();
+
   if (skillId === undefined) {
     return <Navigate to="/0" replace={true} />;
+  }
+  // ON DEFINIT LE CONTENU SKILLS A AFFICHER EN FONCTION DE LA LANGUE ET DE LA PAGE SKILLS
+
+  let skills;
+  if (language === 'english') {
+    skills = skillsEnglish;
+  }
+  if (language === 'french') {
+    skills = skillsFrench;
+  }
+  if (language === 'japanese') {
+    skills = skillsJapanese;
   }
   let skill = skills.filter((skills) => skills.id === skillId);
 
@@ -49,7 +64,7 @@ function Home() {
             {skills.map((idx) => (
               <li key={idx.id}>
                 <Link to={`.././${idx.id}`}>
-                  <button>{idx.name}</button>
+                  <button>{idx.menu}</button>
                 </Link>
               </li>
             ))}
@@ -61,6 +76,7 @@ function Home() {
           </ul>
         </nav>
         <section id="right">
+          <h1>{skill[0].name}</h1>
           <div dangerouslySetInnerHTML={skilllist}></div>
           <hr />
         </section>
