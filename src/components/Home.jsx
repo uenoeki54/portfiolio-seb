@@ -4,8 +4,12 @@ import { Navigate } from 'react-router-dom';
 import skills from '../assets/data/skills.json';
 import portrait from '../assets/images/seb-portrait.jpg';
 import { MdDoubleArrow } from 'react-icons/md';
+import React from 'react';
+import { LanguageContext } from '../App';
 
 function Home() {
+  const { language, toFrench, toEnglish, toJapanese } =
+    React.useContext(LanguageContext);
   const { skillId } = useParams();
   if (skillId === undefined) {
     return <Navigate to="/0" replace={true} />;
@@ -24,7 +28,11 @@ function Home() {
             <div className="nom">
               <h1>Sébastien ETIEVANT</h1>
               <h2>
-                Intégrateur /<br></br>Développeur web
+                {language === 'french' && 'Intégrateur /'}{' '}
+                {language === 'english' && 'Web Developper'}
+                {language === 'japanese' && 'ウェブ開発者'}
+                <br></br>
+                {language === 'french' && 'Développeur web'}
               </h2>
             </div>
             <img src={portrait}></img>
