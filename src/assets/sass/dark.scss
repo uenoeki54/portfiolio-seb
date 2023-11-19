@@ -17,8 +17,19 @@
         color: $main-text-dark;
       }
     }
+
     #left p {
       color: $main-text-dark;
+    }
+    .menu button {
+      background-color: $secondary-text-dark;
+      color: $main-text-dark;
+    }
+    #right {
+      h1,
+      ul {
+        color: $secondary-text-dark;
+      }
     }
   }
 }

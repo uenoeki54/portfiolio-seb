@@ -19,5 +19,26 @@
     "thumbnail": "/src/assets/images/paintings-thumb.png",
     "text": "",
     "picture": "/src/assets/images/paintings.png"
+  },
+  {
+    "id": "3",
+    "name": "tarot",
+    "thumbnail": "/src/assets/images/tarot-thumb.png",
+    "text": "",
+    "picture": "/src/assets/images/tarot.png"
+  },
+  {
+    "id": "4",
+    "name": "kasa",
+    "thumbnail": "/src/assets/images/kasa-thumb.png",
+    "text": "",
+    "picture": "/src/assets/images/kasa.png"
+  },
+  {
+    "id": "5",
+    "name": "paintings",
+    "thumbnail": "/src/assets/images/paintings-thumb.png",
+    "text": "",
+    "picture": "/src/assets/images/paintings.png"
   }
 ]

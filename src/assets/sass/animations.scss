@@ -11,6 +11,21 @@
   }
 }
 
+.thumbnails {
+  a {
+    display: block;
+    overflow: hidden;
+    width: 417px;
+    height: 293px;
+    border: 3px solid $emphasis;
+    border-radius: 15px;
+    img:hover {
+      transform: scale(1.15);
+      transition-duration: 400ms;
+    }
+  }
+}
+
 .menu {
   .arrows {
     display: flex;
