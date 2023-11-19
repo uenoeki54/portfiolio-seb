@@ -18,6 +18,17 @@ function Projects() {
         pagination="true"
         dots="false"
         nav="true"
+        responsive={{
+          1: {
+            items: 1,
+          },
+          1000: {
+            items: 2,
+          },
+          1500: {
+            items: 3,
+          },
+        }}
       >
         {projects.map((idx) => (
           <div key={idx.id} class="item">
