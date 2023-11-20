@@ -19,6 +19,10 @@
     height: 293px;
     border: 3px solid $emphasis;
     border-radius: 15px;
+    img {
+      transform: scale(1);
+      transition-duration: 400ms;
+    }
     img:hover {
       transform: scale(1.15);
       transition-duration: 400ms;
@@ -45,6 +49,11 @@
     }
   }
 }
+
+.owl-carousel .owl-nav button:hover {
+  background-color: red;
+}
+
 @keyframes godown {
   0% {
     opacity: 0;
@@ -93,17 +102,5 @@
 
   100% {
     opacity: 1;
-  }
-}
-
-@keyframes slide {
-  0% {
-    opacity: 0;
-    transform: translate(467px, 0px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translate(0px, 0px);
   }
 }

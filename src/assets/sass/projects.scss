@@ -1,53 +1,28 @@
 @import 'colors';
 
-.owl-carousel .owl-dots {
-  display: none;
-}
-
-.owl-stage-outer {
-  margin-left: 30px;
-  width: 100%;
-  overflow: visible;
-}
-
-.owl-carousel .owl-prev,
-.owl-carousel .owl-next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 200px;
-  padding: 10px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.owl-carousel .owl-prev {
-  left: 5px;
-  span {
-    font-size: 50px;
-  }
-}
-
-.owl-carousel .owl-next {
-  right: 10px;
-  font-size: 50px;
-  span {
-    font-size: 50px;
-  }
-}
-
 #projects {
   background-color: $background-color;
   padding: 1px 20px;
 
   h1 {
     font-size: 36px;
+    font-weight: 600;
     color: $emphasis;
+    margin: 0px 0px 25px 40px;
   }
   .owl-carousel {
     display: flex;
     justify-content: space-around;
     gap: 30px;
+  }
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 417px;
+    figcaption {
+      font-size: 20px;
+    }
   }
 }
 #project {
@@ -61,5 +36,52 @@
       font-size: 36px;
       margin: 0px;
     }
+  }
+}
+
+.owl-carousel .owl-dots {
+  display: none;
+}
+
+.owl-stage-outer {
+  margin-left: 30px;
+  width: 100%;
+  overflow: visible;
+}
+
+.owl-carousel .owl-nav button:hover {
+  background-color: $background-color !important;
+}
+
+.owl-carousel .owl-prev,
+.owl-carousel .owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  span {
+    color: $emphasis;
+  }
+  span:hover {
+    color: $secondary-text;
+  }
+}
+
+.owl-carousel .owl-prev {
+  left: 5px;
+
+  span {
+    font-size: 50px;
+  }
+}
+
+.owl-carousel .owl-next {
+  right: 10px;
+  font-size: 50px;
+  span {
+    font-size: 50px;
   }
 }

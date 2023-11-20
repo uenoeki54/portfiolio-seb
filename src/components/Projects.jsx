@@ -31,7 +31,7 @@ function Projects() {
         }}
       >
         {projects.map((idx) => (
-          <div key={idx.id} class="item">
+          <div key={idx.id} className="item">
             <Link to={`.././project/${idx.id}#header`}>
               <img src={idx.thumbnail}></img>
             </Link>
