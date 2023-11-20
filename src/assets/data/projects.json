@@ -4,41 +4,41 @@
     "name": "tarot",
     "thumbnail": "/src/assets/images/tarot-thumb.png",
     "text": "",
-    "picture": "/src/assets/images/tarot.png"
+    "picture": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/tarot.png"
   },
   {
     "id": "1",
     "name": "kasa",
     "thumbnail": "/src/assets/images/kasa-thumb.png",
     "text": "",
-    "picture": "/src/assets/images/kasa.png"
+    "picture": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/kasa.png"
   },
   {
     "id": "2",
     "name": "paintings",
     "thumbnail": "/src/assets/images/paintings-thumb.png",
     "text": "",
-    "picture": "/src/assets/images/paintings.png"
+    "picture": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/images/paintings.png"
   },
   {
     "id": "3",
     "name": "tarot",
     "thumbnail": "/src/assets/images/tarot-thumb.png",
     "text": "",
-    "picture": "/src/assets/images/tarot.png"
+    "picture": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/tarot.png"
   },
   {
     "id": "4",
     "name": "kasa",
     "thumbnail": "/src/assets/images/kasa-thumb.png",
     "text": "",
-    "picture": "/src/assets/images/kasa.png"
+    "picture": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/kasa.png"
   },
   {
     "id": "5",
     "name": "paintings",
     "thumbnail": "/src/assets/images/paintings-thumb.png",
     "text": "",
-    "picture": "/src/assets/images/paintings.png"
+    "picture": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/paintings.png"
   }
 ]
