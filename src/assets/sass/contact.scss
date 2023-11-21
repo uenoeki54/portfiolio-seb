@@ -1,0 +1,46 @@
+@import 'colors';
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  label {
+    font-weight: 400;
+    font-size: 32px;
+    margin-top: 10px;
+  }
+  input {
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0 none;
+  }
+
+  textarea {
+    height: 100px;
+    width: 400px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 0 none;
+  }
+  .submit {
+    border-radius: 10px;
+    background-color: $emphasis;
+    color: white;
+    padding: 0px 0px 5px 0px;
+    border: 0 none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  input.submit:hover {
+    color: white;
+    border: $main-text solid 2px;
+  }
+  input.submit:active {
+    color: $main-text;
+    border: $main-text solid 3px;
+  }
+}

@@ -57,9 +57,65 @@
 </ul>
 <br>
 <ul class="icons">
-  <li><img src="/src/assets/icons/html.png"></img></li>
-  <li><img src="/src/assets/icons/css.png"></img></li>
-  <li><img src="/src/assets/icons/js.png"></img></li>
-  <li><img src="/src/assets/icons/react.png"></img></li>
-  <li><img src="/src/assets/icons/redux.png"></img></li>
+  <li><img src="https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/icons/html.png"></img></li>
+  <li><img src="https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/icons/css.png"></img></li>
+  <li><img src="https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/icons/js.png"></img></li>
+  <li><img src="https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/icons/react.png"></img></li>
+  <li><img src="https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/icons/redux.png"></img></li>
 </ul>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function() {
+        // https://dashboard.emailjs.com/admin/account
+        emailjs.init('oJejY6RySbUzMAv_w');
+    })();
+</script>
+<script type="text/javascript">
+    window.onload = function() {
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            // generate a five digit number for the contact_number variable
+            this.contact_number.value = Math.random() * 100000 | 0;
+            // these IDs from the previous steps
+            emailjs.sendForm('contact_service', 'contact_form', this)
+                .then(function() {
+                    console.log('SUCCESS!');
+                }, function(error) {
+                    console.log('FAILED...', error);
+                });
+        });
+    }
+</script>
+
+<form id="contact-form">
+  <input type="hidden" name="contact_number">
+  <label>Name</label>
+  <input type="text" name="user_name">
+  <label>Email</label>
+  <input type="email" name="user_email">
+  <label>Message</label>
+  <textarea name="message"></textarea>
+  <class="submit" type="submit" value="Send">
+</form>
+
+お問い合わせフォーム
+
+<form id="contact-form">
+  <input type="hidden" name="contact_number">
+  <label>名前</label>
+  <input type="text" name="user_name">
+  <label>メールアドレス</label>
+  <input type="email" name="user_email">
+  <label>内容</label>
+  <textarea name="message"></textarea>
+  <input class="submit" type="submit" value="確認">
+</form>
+
+
+  <ul>
+    <li>-> 2023 長栄館ホテル、 SNSの担当者、 日本</li>
+    <li>-> 2017 ユミコア、インタネットプロジェクトマネジャー、 パリ</li>
+    <li>-> 2009 Delville、 ウェブマスター、 パリ</li>
+    
+  </ul>
