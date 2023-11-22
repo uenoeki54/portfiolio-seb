@@ -4,6 +4,7 @@ import { Navigate } from 'react-router-dom';
 import skillsFrench from '../assets/data/skills-french.json';
 import skillsEnglish from '../assets/data/skills-english.json';
 import skillsJapanese from '../assets/data/skills-japanese.json';
+import intro from '../assets/data/intro.json';
 import portrait from '../assets/images/seb-portrait.jpg';
 import { MdDoubleArrow } from 'react-icons/md';
 import React from 'react';
@@ -31,10 +32,8 @@ function Home() {
   }
   let skill = skills.filter((skills) => skills.id === skillId);
 
-  console.log(`skillId vaut ${skillId}`);
-  console.log(`skill vaut ${skill}`);
-  console.log(skill[0].text);
   const skilllist = { __html: skill[0].text };
+
   return (
     <main>
       <div id="upper">
@@ -52,12 +51,8 @@ function Home() {
             </div>
             <img src={portrait}></img>
           </div>
-          <p>
-            Hello ! I am a web developper with a strong business culture and
-            strong language skills! Feel free to browse thsi small portfolio of
-            mine ! <br></br>Lorem ipsum dolor sit amet, consectetur patate elit.
-            Vestibulum id ul
-          </p>
+          <p>{intro[language + 'first']}</p>
+          <p>{intro[language + 'second']}</p>
         </section>
         <nav id="skills">
           <ul className="menu">

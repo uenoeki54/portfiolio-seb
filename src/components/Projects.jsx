@@ -1,15 +1,34 @@
-import projects from '../assets/data/projects.json';
-import { useParams } from 'react-router-dom';
+import projectsFrench from '../assets/data/projects-french.json';
+import projectsEnglish from '../assets/data/projects-english.json';
+import projectsJapanese from '../assets/data/projects-japanese.json';
 import { HashLink as Link } from 'react-router-hash-link';
 import React, { Component } from 'react';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import { LanguageContext } from '../App';
 
 function Projects() {
+  const { language, toFrench, toEnglish, toJapanese } =
+    React.useContext(LanguageContext);
+
+  let projects;
+  if (language === 'english') {
+    projects = projectsEnglish;
+    console.log(projects);
+  }
+  if (language === 'french') {
+    projects = projectsFrench;
+    console.log(projects);
+  }
+  if (language === 'japanese') {
+    projects = projectsJapanese;
+    console.log(projects);
+  }
   return (
     <section id="projects">
       <h1>Projects</h1>
+      <h1>language: {language}</h1>
       <OwlCarousel
         items={3}
         className="owl-theme"
@@ -30,12 +49,12 @@ function Projects() {
           },
         }}
       >
-        {projects.map((idx) => (
-          <div key={idx.id} className="item">
-            <Link to={`.././project/${idx.id}#header`}>
-              <img src={idx.thumbnail}></img>
+        {projects.map((project) => (
+          <div key={project.id} className="item">
+            <Link to={`.././project/${project.id}#header`}>
+              <img src={project.thumbnail}></img>
             </Link>
-            <figcaption>{idx.name}</figcaption>
+            <figcaption>{project.name}</figcaption>
           </div>
         ))}
       </OwlCarousel>
