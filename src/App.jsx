@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
+import Success from './components/Success';
 import Header from './components/Header';
 import Projects from './components/Projects';
 import Project from './components/Project';
@@ -38,6 +39,7 @@ function App() {
             <Header />
             <Routes>
               <Route path="/" element={<Home />} />
+              <Route path="/success" element={<Success />} />
               <Route path="/:skillId" element={<Home />} />
               <Route path="/project/:projectId" element={<Project />} />
             </Routes>
