@@ -8,7 +8,7 @@ function Success() {
   let link;
   if (language === 'english') {
     message =
-      'Thanks for your message. I will reply to you via emial as soon as possible. ';
+      'Thanks for your message. I will reply to you via email as soon as possible. ';
 
     link = 'Back to homepage';
   }
@@ -26,7 +26,7 @@ function Success() {
   return (
     <section id="success">
       <h1>{message}</h1>
-      <Link to="./">{link}</Link>
+      <Link to="/">{link}</Link>
     </section>
   );
 }

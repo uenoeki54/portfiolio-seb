@@ -58,6 +58,28 @@ main {
   height: 100%;
 }
 
+#success {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-size: 40px;
+    line-height: 45px;
+    margin: 10px;
+    font-weight: 550;
+    color: $emphasis;
+  }
+  a {
+    font-size: 40px;
+    line-height: 45px;
+    margin: 10px;
+    font-weight: 550;
+    color: $main-text;
+  }
+}
+
 #upper {
   margin-left: 20px;
   padding-top: 20px;
