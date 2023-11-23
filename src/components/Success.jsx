@@ -9,16 +9,16 @@ function Success() {
   const { languageId } = useParams();
   console.log(languageId);
   if (languageId === 1) {
-    toEnglish();
-    console.log(switchedtoenglish);
+    toEnglish;
+    console.log('switchedtoenglish');
   }
   if (languageId === 2) {
-    toFrench();
-    console.log(switchedtofrench);
+    toFrench;
+    console.log('switchedtofrench');
   }
   if (languageId === 3) {
-    toJapanese();
-    console.log(switchedtojapanese);
+    toJapanese;
+    console.log('switchedtojapanese');
   }
   let message;
   let link;
