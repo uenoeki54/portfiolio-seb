@@ -7,7 +7,7 @@ function Success() {
   const { language, toFrench, toEnglish, toJapanese } =
     React.useContext(LanguageContext);
   const { languageId } = useParams();
-
+  console.log(languageId);
   if (languageId === 1) {
     toEnglish();
     console.log(switchedtoenglish);
