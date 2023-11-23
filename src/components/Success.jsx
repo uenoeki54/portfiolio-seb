@@ -33,7 +33,7 @@ function Success() {
     message = 'Merci pour votre message, je reviendrai vers vous au plus vite.';
     link = 'Retour home';
   }
-  if (languageId === '3') {
+  if (language === 'japanese') {
     message =
       'メッセージをどうも有難うございました。まもなくお返事をさせて頂くと思っております。';
     link = 'ホメパゲ';
