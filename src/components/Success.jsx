@@ -8,15 +8,15 @@ function Success() {
     React.useContext(LanguageContext);
   const { languageId } = useParams();
   console.log(languageId);
-  if (languageId === 1) {
+  if (languageId === '1') {
     toEnglish;
     console.log('switchedtoenglish');
   }
-  if (languageId === 2) {
+  if (languageId === '2') {
     toFrench;
     console.log('switchedtofrench');
   }
-  if (languageId === 3) {
+  if (languageId === '3') {
     toJapanese;
     console.log('switchedtojapanese');
   }
