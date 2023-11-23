@@ -1,9 +1,22 @@
 import React from 'react';
 import { LanguageContext } from '../App';
 import { Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 
 function Success() {
-  const { language } = React.useContext(LanguageContext);
+  const { language, toFrench, toEnglish, toJapanese } =
+    React.useContext(LanguageContext);
+  const { languageId } = useParams();
+
+  if (languageId === 1) {
+    toEnglish();
+  }
+  if (languageId === 2) {
+    toFrench();
+  }
+  if (languageId === 3) {
+    toJapanese();
+  }
   let message;
   let link;
   if (language === 'english') {
