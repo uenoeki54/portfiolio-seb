@@ -39,7 +39,7 @@ function App() {
             <Header />
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/success" element={<Success />} />
+              <Route path="/success/:languageId" element={<Success />} />
               <Route path="/:skillId" element={<Home />} />
               <Route path="/project/:projectId" element={<Project />} />
             </Routes>
