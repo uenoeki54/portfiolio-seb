@@ -25,7 +25,7 @@
     border-radius: 10px;
     border: 0 none;
   }
-  .submit {
+  button {
     border-radius: 10px;
     background-color: $emphasis;
     color: white;
@@ -35,11 +35,11 @@
     align-items: center;
     justify-content: center;
   }
-  input.submit:hover {
+  button:hover {
     color: white;
     border: $main-text solid 2px;
   }
-  input.submit:active {
+  button:active {
     color: $main-text;
     border: $main-text solid 3px;
   }
