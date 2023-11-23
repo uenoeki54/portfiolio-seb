@@ -9,15 +9,15 @@ function Success() {
   const { languageId } = useParams();
   console.log(languageId);
   if (languageId === '1') {
-    toEnglish;
+    toEnglish();
     console.log('switchedtoenglish');
   }
   if (languageId === '2') {
-    toFrench;
+    toFrench();
     console.log('switchedtofrench');
   }
   if (languageId === '3') {
-    toJapanese;
+    toJapanese();
     console.log('switchedtojapanese');
   }
   let message;
@@ -33,7 +33,7 @@ function Success() {
     message = 'Merci pour votre message, je reviendrai vers vous au plus vite.';
     link = 'Retour home';
   }
-  if (languageId === 3) {
+  if (languageId === '3') {
     message =
       'メッセージをどうも有難うございました。まもなくお返事をさせて頂くと思っております。';
     link = 'ホメパゲ';
