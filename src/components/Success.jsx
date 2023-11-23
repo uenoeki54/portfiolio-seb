@@ -10,12 +10,15 @@ function Success() {
 
   if (languageId === 1) {
     toEnglish();
+    console.log(switchedtoenglish);
   }
   if (languageId === 2) {
     toFrench();
+    console.log(switchedtofrench);
   }
   if (languageId === 3) {
     toJapanese();
+    console.log(switchedtojapanese);
   }
   let message;
   let link;
