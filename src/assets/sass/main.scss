@@ -128,11 +128,13 @@ main {
     width: 272px;
     height: 61px;
     background-color: $emphasis;
-    border-radius: 15px;
+    border-radius: 89% 11% 92% 8% / 13% 70% 30% 87%;
     color: white;
     font-size: 32px;
-    border: 4px solid $emphasis;
-    transition: border-color 0.3s linear;
+    border: 0px solid $emphasis;
+    transition: border-radius 0.3s linear;
+    box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.4),
+      inset 0px -5px 15px rgba(255, 255, 255, 0.4);
   }
   ul {
     padding: 0px !important;
@@ -146,7 +148,6 @@ main {
     border-radius: 15px;
     color: white;
     font-size: 31px;
-    border: 3px solid $main-text;
   }
 }
 
