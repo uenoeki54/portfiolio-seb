@@ -1,7 +1,8 @@
 import french from '../assets/icons/flag-french66-40.jpg';
 import english from '../assets/icons/flag-english66-40.jpg';
 import japanese from '../assets/icons/flag-japan66-40.jpg';
-import darkmode from '../assets/icons/icon-darkmode-trans.png';
+import moon from '../assets/icons/moon.svg';
+import sun from '../assets/icons/light.svg';
 import { Link } from 'react-router-dom';
 import React from 'react';
 import { ThemeContext } from '../App';
@@ -34,7 +35,13 @@ function Header() {
             </li>
           </ul>
         </div>
-        <img src={darkmode} className="mode" onClick={toggleTheme}></img>
+        <div className="darkmode-toggle">
+          <input type="checkbox" id="darkmode-toggle" />
+          <label for="darkmode-toggle" onClick={toggleTheme}>
+            {/* <img src={moon} className="moon"></img>
+            <img src={sun} className="sun"></img> */}
+          </label>
+        </div>
       </div>
     </header>
   );
