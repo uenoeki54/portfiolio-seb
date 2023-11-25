@@ -103,4 +103,13 @@
   #project {
     background-color: $background-color-dark !important;
   }
+  #success {
+    background-color: $background-color-dark !important;
+    h1 {
+      color: $secondary-text-dark;
+    }
+    a {
+      color: $secondary-text-dark;
+    }
+  }
 }
