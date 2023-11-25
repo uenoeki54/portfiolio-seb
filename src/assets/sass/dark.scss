@@ -89,7 +89,7 @@
       color: $main-text-dark;
     }
     .menu button {
-      background-color: $secondary-text-dark;
+      background-color: $button-dark;
       color: $main-text-dark;
     }
     #right {
@@ -98,5 +98,9 @@
         color: $secondary-text-dark;
       }
     }
+  }
+  #projects,
+  #project {
+    background-color: $background-color-dark !important;
   }
 }

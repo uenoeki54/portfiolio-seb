@@ -11,6 +11,7 @@ function Header() {
   const { theme, toggleTheme } = React.useContext(ThemeContext);
   const { language, toFrench, toEnglish, toJapanese } =
     React.useContext(LanguageContext);
+
   return (
     <header id="header">
       <Link to="./">Home</Link>
@@ -37,7 +38,14 @@ function Header() {
         </div>
         <div className="darkmode-toggle">
           <input type="checkbox" id="darkmode-toggle" />
-          <label for="darkmode-toggle" onClick={toggleTheme}>
+          <label
+            for="darkmode-toggle"
+            onClick={() => {
+              const newTheme = theme === 'light' ? 'dark' : 'light';
+              localStorage.setItem('themelocal', newTheme);
+              toggleTheme();
+            }}
+          >
             {/* <img src={moon} className="moon"></img>
             <img src={sun} className="sun"></img> */}
           </label>

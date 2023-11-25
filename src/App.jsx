@@ -4,21 +4,38 @@ import Success from './components/Success';
 import Header from './components/Header';
 import Projects from './components/Projects';
 import Project from './components/Project';
+import React, { useState, useEffect } from 'react';
 
 import './assets/sass/main.scss';
-
-import React from 'react';
-import { useState } from 'react';
 
 const ThemeContext = React.createContext([]);
 export { ThemeContext };
 const LanguageContext = React.createContext([]);
 export { LanguageContext };
 function App() {
-  const [theme, setTheme] = useState('light');
+  // Retrieve the light mode variable from local storage
+  const localTheme = localStorage.getItem('themelocal') || 'light';
+  const [theme, setTheme] = useState(localTheme);
+
+  // Function to toggle theme
   function toggleTheme() {
     setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
   }
+
+  // Function to update theme based on local storage changes
+  useEffect(() => {
+    const handleStorageChange = () => {
+      const newTheme = localStorage.getItem('themelocal') || 'light';
+      setTheme(newTheme);
+    };
+
+    window.addEventListener('storage', handleStorageChange);
+    return () => {
+      window.removeEventListener('storage', handleStorageChange);
+    };
+  }, []);
+
+  // Language context stuff
   const [language, setLanguage] = useState('english');
   function toFrench() {
     setLanguage('french');
