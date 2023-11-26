@@ -36,7 +36,9 @@ function App() {
   }, []);
 
   // Language context stuff
-  const [language, setLanguage] = useState('english');
+  // Retrieve the language variable from local storage
+  const localLanguage = localStorage.getItem('languagelocal') || 'english';
+  const [language, setLanguage] = useState(localLanguage);
   function toFrench() {
     setLanguage('french');
   }
@@ -46,6 +48,19 @@ function App() {
   function toJapanese() {
     setLanguage('japanese');
   }
+
+  // Function to update language based on local storage changes
+  useEffect(() => {
+    const handleStorageChange = () => {
+      const newLanguage = localStorage.getItem('languagelocal') || 'english';
+      setLanguage(newLanguage);
+    };
+
+    window.addEventListener('storage', handleStorageChange);
+    return () => {
+      window.removeEventListener('storage', handleStorageChange);
+    };
+  }, []);
   return (
     <BrowserRouter>
       <ThemeContext.Provider value={{ theme, toggleTheme }}>

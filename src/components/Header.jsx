@@ -21,17 +21,35 @@ function Header() {
           <ul>
             <li>
               <a href="#">
-                <img src={english} onClick={toEnglish}></img>
+                <img
+                  src={english}
+                  onClick={() => {
+                    toEnglish();
+                    localStorage.setItem('languagelocal', 'english');
+                  }}
+                ></img>
               </a>
             </li>
             <li>
               <a href="#">
-                <img src={french} onClick={toFrench}></img>
+                <img
+                  src={french}
+                  onClick={() => {
+                    toFrench();
+                    localStorage.setItem('languagelocal', 'french');
+                  }}
+                ></img>
               </a>
             </li>
             <li>
               <a href="#">
-                <img src={japanese} onClick={toJapanese}></img>
+                <img
+                  src={japanese}
+                  onClick={() => {
+                    toJapanese();
+                    localStorage.setItem('languagelocal', 'japanese');
+                  }}
+                ></img>
               </a>
             </li>
           </ul>
