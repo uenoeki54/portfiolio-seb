@@ -1,44 +1,32 @@
 [
   {
     "id": "0",
-    "name": "tarot french",
+    "name": "Tarot",
     "thumbnail": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/tarot-thumb.png",
-    "text": "",
-    "picture": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/tarot.png"
+    "text": "Il s'agit d'un projet à long terme que j'ai commencé cette année. Il vise à présenter quelques essais philosophiques que j'ai écrits sur le Tarot de Marseille.",
+    "text2": "Ce projet React utilise de nombreuses techniques que j'ai apprises avec Open Classrooms. La structure du projet est complète, mais les 78 méditations sur les Arcanes du Tarot pourraient prendre toute une vie à élaborer.",
+    "picture": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/tarot.png",
+    "link": "https://tarot-project.com/",
+    "github": "https://github.com/uenoeki54/Tarot-Project"
   },
   {
     "id": "1",
-    "name": "kasa french",
+    "name": "kasa",
     "thumbnail": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/kasa-thumb.png",
-    "text": "",
-    "picture": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/kasa.png"
+    "text": "Ce projet a été créé dans le cadre du programme de formation de développeur Web de 9 mois d'Open Classrooms. Il met l'accent sur la structure React, notamment le hook useParams et le CSS/Sass.",
+    "text2": "C'était une expérience interessante a plus d'un titre.",
+    "picture": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/kasa.png",
+    "link": "https://tarot-project.com/",
+    "github": "https://github.com/uenoeki54/kasa-OC"
   },
   {
     "id": "2",
-    "name": "Peinture acrylique",
+    "name": "paintings",
     "thumbnail": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/paintings-thumb.png",
-    "text": "",
-    "picture": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/paintings.png"
-  },
-  {
-    "id": "3",
-    "name": "tarot",
-    "thumbnail": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/tarot-thumb.png",
-    "text": "",
-    "picture": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/tarot.png"
-  },
-  {
-    "id": "4",
-    "name": "kasa",
-    "thumbnail": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/kasa-thumb.png",
-    "text": "",
-    "picture": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/kasa.png"
-  },
-  {
-    "id": "5",
-    "name": "Peinture acrylique",
-    "thumbnail": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/paintings-thumb.png",
-    "text": "",
-    "picture": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/paintings.png"
+    "text": "Il s'agit d'un projet personnel que j'ai réalisé afin de mettre en avant mes peintures acryliques sur toile et autres dessins.",
+    "text2": "Il a été réalisé à l'époque où le CSS2 était encore un territoire inexploré et il présente de nombreuses expérimentations avec des animations interactives.",
+    "picture": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/paintings.png",
+    "link": "https://sebastien-etievant.com/",
+    "github": ""
   }
 ]

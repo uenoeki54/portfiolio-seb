@@ -102,6 +102,23 @@
   #projects,
   #project {
     background-color: $background-color-dark !important;
+    .right {
+      h1,
+      p {
+        color: $main-text-dark;
+      }
+      a {
+        color: $secondary-text-dark;
+      }
+      a:hover {
+        color: $main-text-dark;
+      }
+    }
+  }
+  .item {
+    figcaption {
+      color: $secondary-text-dark;
+    }
   }
   #success {
     background-color: $background-color-dark !important;

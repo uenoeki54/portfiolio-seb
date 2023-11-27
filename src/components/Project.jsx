@@ -4,6 +4,7 @@ import { LanguageContext } from '../App';
 import projectsFrench from '../assets/data/projects-french.json';
 import projectsEnglish from '../assets/data/projects-english.json';
 import projectsJapanese from '../assets/data/projects-japanese.json';
+import { Link } from 'react-router-dom';
 
 function Project() {
   const { language, toFrench, toEnglish, toJapanese } =
@@ -31,7 +32,12 @@ function Project() {
         <img src={project[0].picture}></img>
       </div>
       <div className="right">
-        <h1>This is the project {project[0].name}</h1>
+        <h1>Project : {project[0].name}</h1>
+        <p>{project[0].text}</p>
+        <p>{project[0].text2}</p>
+        <Link to={project[0].link}>{project[0].link}</Link>
+        <br></br>
+        <Link to={project[0].github}>{project[0].github}</Link>
       </div>
     </section>
   );

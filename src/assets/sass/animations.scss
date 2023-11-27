@@ -18,7 +18,9 @@
     width: 417px;
     height: 293px;
     border: 3px solid $emphasis;
-    border-radius: 15px;
+    border-radius: 16% 84% 16% 84% / 76% 22% 78% 24%;
+    transition: border-radius 0.3s linear;
+
     img {
       transform: scale(1);
       transition-duration: 400ms;
@@ -28,6 +30,11 @@
       transition-duration: 400ms;
     }
   }
+  // a:hover {
+  //   border-radius: 5%;
+  //   width: 417px;
+  //   height: 293px;
+  // }
 }
 
 .menu {
@@ -49,8 +56,6 @@
     }
   }
 }
-
-
 
 @keyframes godown {
   0% {

@@ -1,44 +1,32 @@
 [
   {
     "id": "0",
-    "name": "tarot-japanese",
+    "name": "Tarot",
     "thumbnail": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/tarot-thumb.png",
-    "text": "",
-    "picture": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/tarot.png"
+    "text": "これは、今年開始した長期プロジェクトです。私のマルセイユタロットに関する哲学的エッセイを紹介することを目的としています。",
+    "text2": "このReactプロジェクトは、Open Classroomsで学んだ多くの技術を使用しています。プロジェクトの構造は完成していますが、タロットのアルカナに関する78の瞑想を書くには一生かかるかもしれません。",
+    "picture": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/tarot.png",
+    "link": "https://tarot-project.com/",
+    "github": "https://github.com/uenoeki54/Tarot-Project"
   },
   {
     "id": "1",
     "name": "kasa",
     "thumbnail": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/kasa-thumb.png",
-    "text": "",
-    "picture": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/kasa.png"
+    "text": "これは、Open Classroomsの9カ月間のWeb開発者トレーニングプログラムの一環として作成されました。Reactの構造とCSS/Sassに重点が置かれています。",
+    "text2": "楽しい経験で楽しい",
+    "picture": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/kasa.png",
+    "link": "",
+    "github": "https://github.com/uenoeki54/kasa-OC"
   },
   {
     "id": "2",
-    "name": "アクリル",
+    "name": "paintings",
     "thumbnail": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/paintings-thumb.png",
-    "text": "",
-    "picture": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/paintings.png"
-  },
-  {
-    "id": "3",
-    "name": "tarot",
-    "thumbnail": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/tarot-thumb.png",
-    "text": "",
-    "picture": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/tarot.png"
-  },
-  {
-    "id": "4",
-    "name": "kasa",
-    "thumbnail": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/kasa-thumb.png",
-    "text": "",
-    "picture": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/kasa.png"
-  },
-  {
-    "id": "5",
-    "name": "アクリル",
-    "thumbnail": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/paintings-thumb.png",
-    "text": "",
-    "picture": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/paintings.png"
+    "text": "これは、私のキャンバス上のアクリル画やその他の絵を宣伝するために私が作成した個人的なプロジェクトです。",
+    "text2": "CSS2がまだ未知の領域であった時代に作成されました。インタラクティブなアニメーションの実験が数多くあります。",
+    "picture": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/paintings.png",
+    "link": "https://sebastien-etievant.com/",
+    "github": ""
   }
 ]
