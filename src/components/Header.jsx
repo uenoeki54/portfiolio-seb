@@ -15,7 +15,7 @@ function Header() {
   return (
     <header id="header">
       <Link to="./">Home</Link>
-      <p>{language}</p>
+      {/* <p>{language}</p> */}
       <div className="icons">
         <div className="flags">
           <ul>
