@@ -6,6 +6,7 @@ import skillsEnglish from '../assets/data/skills-english.json';
 import skillsJapanese from '../assets/data/skills-japanese.json';
 import intro from '../assets/data/intro.json';
 import portrait from '../assets/images/seb-portrait.jpg';
+import linkedin from '../assets/icons/linkedin.png';
 import { MdDoubleArrow } from 'react-icons/md';
 import React from 'react';
 import { LanguageContext } from '../App';
@@ -51,8 +52,14 @@ function Home() {
             </div>
             <img src={portrait}></img>
           </div>
-          <p>{intro[language + 'first']}</p>
+          <p>intro[language + 'first']</p>
           <p>{intro[language + 'second']}</p>
+          <Link to="https://www.linkedin.com/in/s%C3%A9bastien-etievant-771b7052/">
+            <img src={linkedin}></img>
+          </Link>
+          <Link to={intro[language + 'resumelink']}>
+            {intro[language + 'resumename']}
+          </Link>
         </section>
         <nav id="skills">
           <ul className="menu">

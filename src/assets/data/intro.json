@@ -1,8 +1,14 @@
 {
   "frenchfirst": "Bonjour, je suis un webmaster / développeur web doté d'un goût prononcé pour les langues étrangères et d'une forte culture business. ",
   "frenchsecond": "Bienvenue sur mon portfolio !",
+  "frenchresumename": "CV",
+  "frenchresumelink": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/resumes/ETIEVANT Sebastien - Webmaster Editorial International.pdf",
   "englishfirst": "Hello, I am a front-end developper with strong language skills and a business background ! ",
   "englishsecond": "Please feel free to browse my portfolio ! ",
+  "englishresumename": "resume",
+  "englishresumelink": "CV",
   "japanesefirst": "初めまして！セバスチャンと申し上げます！ウェブ開発者でございます！外国語も、ビジネスの文化も専門です。",
-  "japanesesecond": "申し良ければ、私のポートフォリオを何卒、ポートフォリオをご覧いただければ幸いです。よろしくお願い致します。"
+  "japanesesecond": "申し良ければ、私のポートフォリオを何卒、ポートフォリオをご覧いただければ幸いです。よろしくお願い致します。",
+  "japaneseresumename": "履歴書",
+  "japaneseresumelink": "CV"
 }
