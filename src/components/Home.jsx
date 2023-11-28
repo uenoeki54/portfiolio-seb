@@ -52,14 +52,17 @@ function Home() {
             </div>
             <img src={portrait}></img>
           </div>
-          <p>intro[language + 'first']</p>
+          <p>{intro[language + 'first']}</p>
           <p>{intro[language + 'second']}</p>
-          <Link to="https://www.linkedin.com/in/s%C3%A9bastien-etievant-771b7052/">
-            <img src={linkedin}></img>
-          </Link>
-          <Link to={intro[language + 'resumelink']}>
-            {intro[language + 'resumename']}
-          </Link>
+          <br></br>
+          <div id="links">
+            <Link to="https://www.linkedin.com/in/s%C3%A9bastien-etievant-771b7052/">
+              <img src={linkedin}></img>
+            </Link>
+            <Link to={intro[language + 'resumelink']}>
+              {intro[language + 'resumename']}
+            </Link>
+          </div>
         </section>
         <nav id="skills">
           <ul className="menu">

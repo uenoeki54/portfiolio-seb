@@ -28,7 +28,7 @@ function Projects() {
   return (
     <section id="projects">
       <h1>Projects</h1>
-      <h1>language: {language}</h1>
+
       <OwlCarousel
         items={3}
         className="owl-theme"

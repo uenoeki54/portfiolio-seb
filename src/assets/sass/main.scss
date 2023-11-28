@@ -114,6 +114,17 @@ main {
     color: $main-text;
     margin: 5px 0px 0px 10px;
   }
+  #links {
+    display: flex;
+    justify-content: baseline;
+    gap: 20px;
+    align-items: center;
+    a {
+      font-size: 25px;
+      // text-decoration: none;
+      color: $main-text;
+    }
+  }
 }
 
 .menu {

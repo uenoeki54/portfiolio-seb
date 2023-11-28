@@ -88,6 +88,11 @@
     #left p {
       color: $main-text-dark;
     }
+    #links {
+      a {
+        color: $emphasis !important;
+      }
+    }
     .menu button {
       background-color: $button-dark;
       color: $main-text-dark;

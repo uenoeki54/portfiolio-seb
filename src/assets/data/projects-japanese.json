@@ -28,5 +28,15 @@
     "picture": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/paintings.png",
     "link": "https://sebastien-etievant.com/",
     "github": ""
+  },
+  {
+    "id": "3",
+    "name": "argentbank",
+    "thumbnail": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/argentbank-thumb.png",
+    "text": "This has ben created as part of the Open Classrooms 9 months web developer training program. It emphases React-Redux structure and API fetches",
+    "text2": "Creating the Redux structure was quiet teh challenge, but once done, adding new functions wwas easy. ",
+    "picture": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/argentbank.png",
+    "link": "",
+    "github": "https://github.com/uenoeki54/argentbank "
   }
 ]
