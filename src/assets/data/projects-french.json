@@ -34,8 +34,8 @@
     "name": "argentbank",
     "thumbnail": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/argentbank-thumb.png",
     "text": "Ce projet a été créé dans le cadre du programme de formation de développeur Web de 9 mois d'Open Classrooms. Il met l'accent sur la mise en œuvre de la structure React-Redux et l'interaction avec une API.",
+    "text2": "La création de ma premiere structure Redux a constitué un véritable défi, mais une fois celle-ci mise en place, l'ajout de nouvelles fonctions a été facile.",
     "picture": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/argentbank.png",
-    "text2": "La mise ne place de la structure Redux a constitué un petit défi, mais une fois terminée, l'ajout de nouvelles fonctions a été pratique",
     "link": "",
     "github": "https://github.com/uenoeki54/argentbank "
   }

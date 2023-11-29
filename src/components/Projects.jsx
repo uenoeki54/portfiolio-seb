@@ -30,7 +30,7 @@ function Projects() {
       <h1>Projects</h1>
 
       <OwlCarousel
-        items={3}
+        items={4}
         className="owl-theme"
         loop="false"
         margin={0}
