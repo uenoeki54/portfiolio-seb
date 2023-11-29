@@ -33,8 +33,8 @@
     "id": "3",
     "name": "argentbank",
     "thumbnail": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/argentbank-thumb.png",
-    "text": "This has ben created as part of the Open Classrooms 9 months web developer training program. It emphases React-Redux structure and API fetches",
-    "text2": "Creating the Redux structure was quiet teh challenge, but once done, adding new functions wwas easy. ",
+    "text": "これは、Open Classroomsの9カ月間のWeb開発者トレーニングプログラムの一環として作成されました。React-Redux構造の実装とAPIフェッチに重点が置かれています。",
+    "text2": "Redux構造の作成は非常に挑戦的でしたが、一度完了すると、新しい機能の追加は簡単でした。",
     "picture": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/argentbank.png",
     "link": "",
     "github": "https://github.com/uenoeki54/argentbank "
