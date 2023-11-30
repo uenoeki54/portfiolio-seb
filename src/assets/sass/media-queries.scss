@@ -36,6 +36,14 @@
   .item a img {
     width: 250px !important;
   }
+  .flags img {
+    width: 33px;
+  }
+  #header {
+    a {
+      font-size: 20px;
+    }
+  }
 }
 @media (max-width: 501px) {
   #sebastien-etievant {
