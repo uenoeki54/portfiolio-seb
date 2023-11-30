@@ -52,8 +52,10 @@ function Home() {
             </div>
             <img src={portrait}></img>
           </div>
-          <p>{intro[language + 'first']}</p>
-          <p>{intro[language + 'second']}</p>
+          <div id="intro">
+            <p>{intro[language + 'first']}</p>
+            <p>{intro[language + 'second']}</p>
+          </div>
           <br></br>
           <div id="links">
             <Link to="https://www.linkedin.com/in/s%C3%A9bastien-etievant-771b7052/">

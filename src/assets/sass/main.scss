@@ -3,12 +3,7 @@
 @import 'projects';
 @import 'animations';
 @import 'contact';
-// $header-grey: #9f9fab;
-// $background-color: #e6e6fa;
-// $background-color-dark: #191970;
-// $main-text: #191970;
-// $emphasis: #ff6060;
-// $secondary-text: #cc2500;
+@import 'media-queries';
 
 * {
   font-family: Inter;
@@ -90,7 +85,7 @@ main {
   width: 35vw;
   #sebastien-etievant {
     display: flex;
-    flex-direction: row;
+
     gap: 20px;
     color: $main-text;
     h1,

@@ -1,0 +1,44 @@
+@media (max-width: 1042px) {
+  #skills {
+    button {
+      width: 213px;
+    }
+  }
+}
+@media (max-width: 998px) {
+  #skills {
+    button {
+      width: 150px;
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  #upper {
+    flex-direction: column;
+  }
+  #intro {
+    width: 100%;
+    p {
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 513px) {
+  #sebastien-etievant {
+    flex-direction: column;
+  }
+  .item a {
+    width: 250px !important;
+    height: 176px !important;
+  }
+  .item a img {
+    width: 250px !important;
+  }
+}
+@media (max-width: 501px) {
+  #sebastien-etievant {
+    flex-direction: column;
+  }
+}
