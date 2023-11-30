@@ -39,6 +39,16 @@
       display: none;
     }
   }
+  #project {
+    .left img {
+      width: 95%;
+    }
+    .right {
+      p {
+        font-size: 20px;
+      }
+    }
+  }
   #right {
     width: 100% !important;
     li {
@@ -58,6 +68,16 @@
     width: 100%;
     p {
       width: 90%;
+    }
+  }
+  #project {
+    flex-direction: column;
+    padding: 20px 3px 3px 3px;
+    .right {
+      margin-left: 0px;
+      a {
+        font-size: 16px;
+      }
     }
   }
 }
