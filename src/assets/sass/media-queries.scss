@@ -12,6 +12,12 @@
       font-size: 20px;
     }
   }
+  #contact-form label {
+    font-size: 20px !important;
+  }
+  textarea {
+    width: 275px !important;
+  }
 }
 @media (max-width: 955px) {
   #upper {
@@ -26,9 +32,22 @@
   .menu {
     flex-direction: row !important;
     flex-wrap: wrap;
+    margin-top: 15px;
+    padding: 0px;
+
     .arrows {
       display: none;
     }
+  }
+  #right {
+    width: 100% !important;
+    li {
+      font-size: 24px !important;
+    }
+  }
+  #contact-cols {
+    display: flex;
+    gap: 5px;
   }
 }
 @media (max-width: 767.98px) {
@@ -45,10 +64,19 @@
 
 @media (max-width: 513px) {
   #sebastien-etievant {
+    gap: 0px !important;
     img {
       width: 10em !important;
       height: 11em !important;
     }
+    h1,
+    h2 {
+      font-size: 28px !important;
+      line-height: 28px !important;
+    }
+  }
+  #intro p {
+    font-size: 24px !important;
   }
   .item a {
     width: 250px !important;
@@ -64,5 +92,28 @@
     a {
       font-size: 20px;
     }
+  }
+  #links img {
+    width: 33px;
+  }
+}
+@media (max-width: 420px) {
+  #sebastien-etievant {
+    img {
+      width: 7em !important;
+      height: 7em !important;
+    }
+  }
+  textarea {
+    width: 275px !important;
+  }
+  #contact-form input {
+    width: 100px;
+  }
+}
+
+@media (max-width: 380px) {
+  #right .icons img {
+    width: 40px;
   }
 }

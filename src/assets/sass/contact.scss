@@ -44,4 +44,8 @@
     color: $main-text;
     border: $main-text solid 3px;
   }
+  .contact-col {
+    display: flex;
+    flex-direction: column;
+  }
 }
