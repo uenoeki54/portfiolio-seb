@@ -17,8 +17,11 @@
   #upper {
     flex-direction: column;
   }
+  #left {
+    width: 100% !important;
+  }
   #intro {
-    width: 100vw;
+    width: 100%;
   }
   .menu {
     flex-direction: row !important;
@@ -32,10 +35,10 @@
   #upper {
     flex-direction: column;
   }
-  #intro {
-    width: 100vw;
+  #left {
+    width: 100%;
     p {
-      width: 100vw;
+      width: 90%;
     }
   }
 }
