@@ -32,7 +32,8 @@ function Projects() {
       <OwlCarousel
         items={4}
         className="owl-theme"
-        loop="false"
+        center={true}
+        loop="true"
         margin={0}
         pagination="true"
         dots="false"
