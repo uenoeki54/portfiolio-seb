@@ -53,7 +53,11 @@
     }
   }
 }
-
+.owl-carousel {
+  display: flex !important; /* To override display:block I added !important */
+  flex-direction: row;
+  justify-content: center; /* To center the carousel */
+}
 .owl-carousel .owl-dots {
   display: none;
 }
@@ -86,7 +90,7 @@
 }
 
 .owl-carousel .owl-prev {
-  left: 5px;
+  left: 10px;
 
   span {
     font-size: 50px;
@@ -102,5 +106,7 @@
 }
 
 .owl-item {
-  display: flex;
+  display: flex !important;
+  justify-content: center;
+  text-align: center !important;
 }
