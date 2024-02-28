@@ -43,8 +43,8 @@
     "id": "4",
     "name": "wordpress",
     "thumbnail": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/wordpress-thumb.png",
-    "text": "I wanted to have a try at Wordpress, since this CMS is sooo famous ! I know that there are more modern and user friendly open source CMS today but I had fun making my own website. ",
-    "text2": "After a little bit of trial and error, some online research and a few plugins, I have the result I wanted, and it's easy to update !",
+    "text": "ワードプレスを試してみたかったんです。すごく有名ですしね！ もっと新しく、ユーザーフレンドリーなオープンソースCMSもあるのは知っていますが、自分でウェブサイトを作るのは楽しかったです。",
+    "text2": "トライアンドエラーを繰り返し、オンラインリサーチをして、いくつかのプラグインを入れたら、望んでいた結果が得られました！更新も簡単です！",
     "picture": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/wordpress.png",
     "link": "https://slaaneshcult.com/",
     "github": " "

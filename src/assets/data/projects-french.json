@@ -43,8 +43,8 @@
     "id": "4",
     "name": "wordpress",
     "thumbnail": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/wordpress-thumb.png",
-    "text": "This has ben created as part of the Open Classrooms 9 months web developer training program. It emphases React-Redux structure and API fetches",
-    "text2": "Creating the Redux structure was quite the challenge, but once done, adding new fetch functions was rendered easy. ",
+    "text": "J'ai voulu essayer WordPress, car ce CMS est tellement célèbre !  Je sais qu'il existe des CMS open source plus modernes et plus conviviaux, mais j'ai pris plaisir à créer mon propre site web et wordpress reste tres demandé dans le monde de l'entreprise. ",
+    "text2": "Après quelques tatonnements, des recherches en ligne et l'installation de quelques plugins, j'ai obtenu le rendu que je voulais, et il est facile à mettre à jour !",
     "picture": "https://raw.githubusercontent.com/uenoeki54/portfiolio-seb/master/src/assets/images/wordpress.png",
     "link": "https://slaaneshcult.com/",
     "github": " "
